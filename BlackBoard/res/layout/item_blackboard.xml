@@ -7,11 +7,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <Button
-	        android:id="@+id/mBlackBoardBtn"
+	        android:id="@+id/mGreenBoardBtn"
 	        android:layout_width="match_parent"
 	        android:layout_height="match_parent"
-	        android:layout_margin="4dip"
-	        android:scaleType="centerCrop"/>
+	        android:layout_margin="20dip"
+	        android:scaleType="centerCrop"
+	        android:background="@drawable/greenboard_small"
+	        android:textColor="#ffffff"
+	        android:textSize="120sp"
+	        android:text="+"
+	        android:paddingLeft="8dip"
+	        android:paddingRight="8dip"
+	        android:paddingTop="8dip"
+	        android:paddingBottom="8dip"/>
 	    <ImageView
 	        android:id="@+id/mDeleteView"
 	        android:layout_width="4dip"
