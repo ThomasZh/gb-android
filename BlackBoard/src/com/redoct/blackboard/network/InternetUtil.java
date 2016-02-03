@@ -18,6 +18,8 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.params.CoreConnectionPNames;
 import org.apache.http.protocol.HTTP;
 
+import com.redoct.iclub.config.Constant;
+
 import android.util.Log;
 
 public class InternetUtil {

@@ -71,6 +71,12 @@ public class GreenBoardCreateDialog extends Dialog implements android.view.View.
         lp.width=width*5/6;
         getWindow().setAttributes(lp);
 	}
+	
+	public void initContent(String content){
+		
+		mContentEt.setText(content);
+		mContentEt.setSelection(mContentEt.getText().toString().length());
+	}
 
 	@Override
 	public void onClick(View view) {

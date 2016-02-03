@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.redoct.blackboard.widget.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+	        android:id="@+id/mStickyNoteBtn"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="20dip"
+	        android:scaleType="centerCrop"
+	        android:background="#ffc"
+	        android:textColor="#000000"
+	        android:textSize="120sp"
+	        android:text="+"
+	        android:paddingLeft="8dip"
+	        android:paddingRight="8dip"
+	        android:paddingTop="8dip"
+	        android:paddingBottom="8dip"/>
+	    <ImageView
+	        android:id="@+id/mDeleteView"
+	        android:layout_width="4dip"
+	        android:layout_height="4dip"
+	        android:layout_gravity="top|right"
+	        android:visibility="gone"/>
+    </FrameLayout>
+
+</com.redoct.blackboard.widget.SquareLayout>
